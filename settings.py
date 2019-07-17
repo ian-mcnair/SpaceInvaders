@@ -11,23 +11,23 @@ class Settings():
         """ Initialize the game's settings. """
         # General Settings
         self.screen_width = 1000
-        self.screen_height = 900
+        self.screen_height = 600
         self.bg_color = (0,150,230)
         
         # Ship Settings
-        self.ship_speed = 1.5
+        self.ship_speed = 0.5
         self.ship_limit = 3
         
         # Bullet Settings
         self.bullet_speed = 1
-        self.bullet_width = 5050
+        self.bullet_width = 5
         self.bullet_height = 15
         self.bullet_color = 60,60,60
         self.bullet_limit = 5
         
         # Alien settings
-        self.invader_speed = 0.5
-        self.fleet_drop_speed = 10
+        self.invader_speed = 0.25
+        self.fleet_drop_speed = 5
         # 1 = right, -1 = left
         self.fleet_direction = 1 
         
